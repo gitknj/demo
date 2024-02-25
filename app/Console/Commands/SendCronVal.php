@@ -13,7 +13,7 @@ class SendCronVal extends Command
      *
      * @var string
      */
-    protected $signature = 'send-cron-val';
+    protected $signature = 'app:send-cron-val';
 
     /**
      * The console command description.
