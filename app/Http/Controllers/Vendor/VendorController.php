@@ -13,6 +13,10 @@ class VendorController extends Controller
     //
     public function dashboard()
     {
+
+
+
+
         session(['page'=>'dashboard']);
         return view('vendor.dashboard');
     }
